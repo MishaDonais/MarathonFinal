@@ -68,6 +68,9 @@ public class MarathonIOForm2 extends javax.swing.JFrame {
         pacelbl8 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setBackground(new java.awt.Color(204, 0, 255));
+        setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        setForeground(new java.awt.Color(153, 255, 153));
 
         timelbl1.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         timelbl1.setText("- : - - : - -");
@@ -136,10 +139,10 @@ public class MarathonIOForm2 extends javax.swing.JFrame {
         runnerlbl1.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         runnerlbl1.setText("- - - - - - - - - - - - - - - - - - - -");
 
-        titlelbl.setFont(new java.awt.Font("Arial", 0, 24)); // NOI18N
+        titlelbl.setFont(new java.awt.Font("Arial Black", 0, 24)); // NOI18N
         titlelbl.setText("Marathon Info");
 
-        introlbl.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
+        introlbl.setFont(new java.awt.Font("Arial Black", 0, 15)); // NOI18N
         introlbl.setText("Click the button below to learn more about some of the fastest marathon runners of all time");
 
         marathonlbl1.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
@@ -195,78 +198,78 @@ public class MarathonIOForm2 extends javax.swing.JFrame {
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(21, 21, 21)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                        .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 264, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(titlelbl)
-                            .addGap(307, 307, 307))
-                        .addGroup(layout.createSequentialGroup()
-                            .addGap(316, 316, 316)
-                            .addComponent(buttonbtn))
-                        .addComponent(introlbl))
                     .addGroup(layout.createSequentialGroup()
+                        .addGap(21, 21, 21)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(layout.createSequentialGroup()
-                                .addGap(33, 33, 33)
+                                .addGap(316, 316, 316)
+                                .addComponent(buttonbtn))
+                            .addGroup(layout.createSequentialGroup()
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(marathonlbl2)
-                                    .addComponent(marathonlbl3)
-                                    .addComponent(marathonlbl1)
-                                    .addComponent(marathonlbl4)
-                                    .addComponent(marathonlbl5)
-                                    .addComponent(marathonlbl6)
-                                    .addComponent(marathonlbl7)
-                                    .addComponent(marathonlbl8)))
-                            .addComponent(ranklbl))
-                        .addGap(76, 76, 76)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                .addComponent(runnerlbl3, javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addGroup(layout.createSequentialGroup()
+                                        .addGap(33, 33, 33)
+                                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                            .addComponent(marathonlbl2)
+                                            .addComponent(marathonlbl3)
+                                            .addComponent(marathonlbl1)
+                                            .addComponent(marathonlbl4)
+                                            .addComponent(marathonlbl5)
+                                            .addComponent(marathonlbl6)
+                                            .addComponent(marathonlbl7)
+                                            .addComponent(marathonlbl8)))
+                                    .addComponent(ranklbl))
+                                .addGap(76, 76, 76)
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(runnerlbl2)
-                                    .addComponent(runnerlbl7)
-                                    .addComponent(runnerlbl6)
-                                    .addComponent(runnerlbl5)
-                                    .addComponent(runnerlbl4)
-                                    .addComponent(runnerlbl1)
-                                    .addComponent(runnerlbl8)))
-                            .addComponent(namelbl))
-                        .addGap(48, 48, 48)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(timelbl)
-                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                                .addComponent(timelbl5, javax.swing.GroupLayout.Alignment.TRAILING)
-                                .addComponent(timelbl6, javax.swing.GroupLayout.Alignment.TRAILING)
-                                .addComponent(timelbl7, javax.swing.GroupLayout.Alignment.TRAILING)
-                                .addComponent(timelbl8, javax.swing.GroupLayout.Alignment.TRAILING)
-                                .addComponent(timelbl4, javax.swing.GroupLayout.Alignment.TRAILING)
-                                .addComponent(timelbl2)
-                                .addComponent(timelbl1)
-                                .addComponent(timelbl3)))
-                        .addGap(103, 103, 103)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(pacelbl)
-                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                                .addComponent(pacelbl5, javax.swing.GroupLayout.Alignment.TRAILING)
-                                .addComponent(pacelbl6, javax.swing.GroupLayout.Alignment.TRAILING)
-                                .addComponent(pacelbl7, javax.swing.GroupLayout.Alignment.TRAILING)
-                                .addComponent(pacelbl8, javax.swing.GroupLayout.Alignment.TRAILING)
-                                .addComponent(pacelbl4, javax.swing.GroupLayout.Alignment.TRAILING)
-                                .addComponent(pacelbl2)
-                                .addComponent(pacelbl1)
-                                .addComponent(pacelbl3)))))
-                .addContainerGap(182, Short.MAX_VALUE))
+                                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                        .addComponent(runnerlbl3, javax.swing.GroupLayout.Alignment.LEADING)
+                                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                            .addComponent(runnerlbl2)
+                                            .addComponent(runnerlbl7)
+                                            .addComponent(runnerlbl6)
+                                            .addComponent(runnerlbl5)
+                                            .addComponent(runnerlbl4)
+                                            .addComponent(runnerlbl1)
+                                            .addComponent(runnerlbl8)))
+                                    .addComponent(namelbl))
+                                .addGap(48, 48, 48)
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(timelbl)
+                                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                                        .addComponent(timelbl5, javax.swing.GroupLayout.Alignment.TRAILING)
+                                        .addComponent(timelbl6, javax.swing.GroupLayout.Alignment.TRAILING)
+                                        .addComponent(timelbl7, javax.swing.GroupLayout.Alignment.TRAILING)
+                                        .addComponent(timelbl8, javax.swing.GroupLayout.Alignment.TRAILING)
+                                        .addComponent(timelbl4, javax.swing.GroupLayout.Alignment.TRAILING)
+                                        .addComponent(timelbl2)
+                                        .addComponent(timelbl1)
+                                        .addComponent(timelbl3)))
+                                .addGap(103, 103, 103)
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(pacelbl)
+                                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                                        .addComponent(pacelbl5, javax.swing.GroupLayout.Alignment.TRAILING)
+                                        .addComponent(pacelbl6, javax.swing.GroupLayout.Alignment.TRAILING)
+                                        .addComponent(pacelbl7, javax.swing.GroupLayout.Alignment.TRAILING)
+                                        .addComponent(pacelbl8, javax.swing.GroupLayout.Alignment.TRAILING)
+                                        .addComponent(pacelbl4, javax.swing.GroupLayout.Alignment.TRAILING)
+                                        .addComponent(pacelbl2)
+                                        .addComponent(pacelbl1)
+                                        .addComponent(pacelbl3))))
+                            .addComponent(introlbl)))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(306, 306, 306)
+                        .addComponent(titlelbl)))
+                .addContainerGap(18, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(31, 31, 31)
+                .addGap(19, 19, 19)
                 .addComponent(titlelbl)
-                .addGap(18, 18, 18)
+                .addGap(26, 26, 26)
                 .addComponent(introlbl)
-                .addGap(32, 32, 32)
+                .addGap(36, 36, 36)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addGroup(layout.createSequentialGroup()
                         .addComponent(buttonbtn)
@@ -333,20 +336,21 @@ public class MarathonIOForm2 extends javax.swing.JFrame {
                         .addComponent(pacelbl7)
                         .addGap(18, 18, 18)
                         .addComponent(pacelbl8)))
-                .addContainerGap(19, Short.MAX_VALUE))
+                .addContainerGap(25, Short.MAX_VALUE))
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
     private void buttonbtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_buttonbtnActionPerformed
-        //2 decimals
        
         //Strings for data
         String runnerName [] = new String [8];
         String runnerTime [] = new String [8];
         int timeInSeconds [] = new int [8];
         String pace [] = new String [8];
+        
+        //Reading in data from the file
         try{
             FileReader file = new FileReader("Marathon.dat");
             BufferedReader buffer = new BufferedReader(file);
@@ -356,11 +360,9 @@ public class MarathonIOForm2 extends javax.swing.JFrame {
             }
             buffer.close();
         }
+        //catch IO exceptions
         catch(IOException e){
             System.err.println("Sorry, file not found");   
-        }
-        for (int i = 0; i <=7; i++){
-        System.out.println("Name " + runnerName[i] + ", Time: " + runnerTime[i]);
         }
         
         //Converting Time to seconds
@@ -394,8 +396,8 @@ public class MarathonIOForm2 extends javax.swing.JFrame {
              //Adding up seconds
              time = secondsAt0 + secondsAt2 + secondsAt3 + secondsAt5 + secondsAt6;
              timeInSeconds[i] = time;
-             System.out.println(timeInSeconds[i]);
          }
+        
         //Time in seconds to pace
             for (int i = 0; i <=7; i++){
                 double paceInSeconds = (timeInSeconds[i]/42.2);
@@ -403,9 +405,9 @@ public class MarathonIOForm2 extends javax.swing.JFrame {
                 int minutes = pace2 /60;
                 int seconds = pace2 % 60;
                 pace[i] = (String.valueOf(minutes) + ":" + String.valueOf(seconds) + "/km");
-                System.out.println(pace[i]);
             }
-            //Outputs
+            
+        //Outputs
         runnerlbl1.setText(runnerName[0]);
         timelbl1.setText(runnerTime[0]);
         pacelbl1.setText(pace[0]);
